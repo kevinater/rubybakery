@@ -1,0 +1,7 @@
+<h2>Hey</h2>
+
+<% @data.each do |dessert| %>
+  <h3>Descripton: <%= dessert.description %></h3>
+  <img src="/<%= dessert.image_url%>">
+
+<% end %>
