@@ -1,7 +1,14 @@
-<h2>Hey</h2>
+<div class="flex-contain">
 
 <% @data.each do |dessert| %>
-  <h3>Descripton: <%= dessert.description %></h3>
+  <div class="flex-child">
+  <h3>Description: <%= dessert.description %></h3>
+  <h3>Price: <%= dessert.price %></h3>
   <img src="/<%= dessert.image_url%>">
+  </div>
 
 <% end %>
+
+</div>
+<br>
+<br>

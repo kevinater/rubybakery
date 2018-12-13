@@ -10,8 +10,3 @@ class Cake < Dessert
 
 
 end
-
-# x = Cake.new('chocolate', 20)
-#
-# puts x.description
-# puts x.getType

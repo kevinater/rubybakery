@@ -3,5 +3,74 @@ body {
 }
 
 img {
-  width: 100px;
+  width: 200px;
+  height: 30vh
+}
+
+.flex-contain {
+  background-color: sienna;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  justify-content: space-around;
+  text-align: center;
+
+}
+
+.flex-child {
+  background-color: coral;
+  width: 25%;
+
+}
+
+
+#infohead {
+  text-align: center;
+}
+
+.index-intro .jumbotron {
+  padding: 55px 60px;
+  margin: 25px;
+  background-image: url('storelogo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.index-intro .jumbotron h1 {
+  font-size: 45px;
+  text-align: center;
+  color:brown;
+  font-weight: bold;
+}
+
+.index-intro .jumbotron p {
+  text-align: center;
+  color: coral;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.page h2 {
+  text-align: center;
+  color: brown;
+
+}
+
+.page p {
+  text-align: center;
+  color: brown;
+  font-size: 20px;
+  margin-left: 70px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: brown;
+  color: white;
+  text-align: center;
 }
